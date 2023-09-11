@@ -75,7 +75,7 @@ nav{
     text-shadow: 30px;
     background-color: rgba(240, 248, 255, 0.2);
     background-position: center;
-    margin: 10px 391px;
+    margin: 10px 350px;
     backdrop-filter: 10px;
     border-radius: 20px;
     
@@ -96,7 +96,7 @@ nav{
     background: rgb(77, 104, 104, 0.7);
     justify-content: center;
     width: 30%;
-    padding: 25px 25px;
+    padding: 35px 35px;
     margin: 10px 450px;
     border: 1px solid black;
     border-radius: 20px;   
@@ -116,7 +116,7 @@ article {
 }
 
 footer{
-    padding: 10px;
+    padding: 4px;
     background-color: rgb(255, 228, 196,0.5);
     backdrop-filter: 10px;
     width: 100%;

@@ -1,0 +1,32 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../Image/14dic_mitos_700x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.logo1 {
+    width: 50px;
+    height: 50px;
+}
+
+.logo2 {
+    width: 20px;
+    height: 20px;
+}
+
+.Login{
+    backdrop-filter: 30px;
+    background: rgb(77, 104, 104, 0.7);
+    text-align: center;
+    width: 30%;
+    padding: 30px 30px;
+    margin: 10px 300px;
+    
+}

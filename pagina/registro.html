@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../css/registr.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro Usuario</title>
 </head>
 <body>
-    <nav><button type="button" id="init">Inicio</button>  <button type="button">Tips Organicos</button>
+    <nav>
+        <button type="button" id="init">Volver</button>
+        <button type="button">Tips Orgánicos</button>
     </nav>
-    
-    <div id="campos">
-        <br><br>Nombre: <input type="text" name="" id="" required>
-        <br><br>Nombre: <input type="text" name="" id="" required>
-        <br><br>Nombre: <input type="text" name="" id="" required>
-        <br><br>Nombre: <input type="text" name="" id="" required>
-        <br><br>Nombre: <input type="text" name="" id="" required>
-        <br><br>Nombre: <input type="text" name="" id="" required>
-        <br><br>Nombre: <input type="text" name="" id="" required>
+    <article>
+        <div id="campos">
+            <br><br>Nombre: <input type="text" name="" id="" required placeholder="Ej: don guayabas">
+            <br><br>Apellido: <input type="text" name="" id="" required placeholder="Ej: Garcia">
+            <br><br>Contraseña: <input type="password" name="" id="" required placeholder="">
+            <br><br>Confirmar Contraseña: <input type="password" name="" id="" required>
+            <br><br>email: <input type="email" name="" id="" required>
+            <br><br>Telefono: <input type="tel" name="" id="" required>
+        </div>
+        <img src="./R.png" alt="User" id="lol" width="150px" height="150px">
+    </article>
+    <div id="btn-container">
+        <div id="register"><button><a href="main.html">Volver</a></button></div>
+        <div id="aaa"><button type="submit"><a href="">Registrar Datos</a></button></div>
     </div>
-    <img src="./R.png" alt="User" id="lol" width="150px" height="150px">
-    <div id="register"><button><a href="main.html">Volver</a></button></div>
-    <div id="aaa"><button><a href="">Registrar Datos</a></button></div>
 </body>
 </html>

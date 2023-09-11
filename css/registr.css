@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp9212018.jpg");
+    background-size: cover;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+nav {
+    background-color: rgba(0, 128, 0, 0.7); /* Color verde lima */
+    padding: 0px;
+    width: 100%;
+    text-align: right;
+    position: fixed; /* Fijar la barra de navegación en la parte superior */
+    top: 0; /* Alinear la barra de navegación en la parte superior */
+}
+
+nav button {
+    border-radius: 20px; /* Botones más redondeados */
+    background-color: rgba(0, 128, 0, 1); /* Color verde lima */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-weight: bold; /* Texto en negrita */
+    margin: 5px; /* Espacio entre botones */
+    cursor: pointer;
+}
+
+#init {
+    background-color: #ccc; /* Color grisaceo para el botón de Volver */
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 50%;
+}
+
+#campos input[type="text"],
+#campos input[type="password"],
+#campos input[type="email"],
+#campos input[type="tel"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#campos input[type="text"]:focus,
+#campos input[type="password"]:focus,
+#campos input[type="email"]:focus,
+#campos input[type="tel"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#lol {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#register button {
+    background-color: #ccc; /* Color grisaceo para el botón Volver */
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    width: 100%; /* Ancho igual al de los otros botones */
+}
+
+#aaa {
+    text-align: right; /* Alinea los botones a la derecha */
+    margin-top: 20px;
+}
+
+#aaa button,
+#init,
+#aaa a {
+    border-radius: 20px; /* Botones más redondeados */
+    background-color: rgba(0, 128, 0, 1); /* Color verde lima */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-weight: bold; /* Texto en negrita */
+    margin: 5px; /* Espacio entre botones */
+}
+
+#register button {
+    background-color: #ccc; /* Color grisaceo para el botón Volver */
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}

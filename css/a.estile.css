@@ -1,7 +1,7 @@
 
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 body{
@@ -16,7 +16,7 @@ nav{
     background-color: rgb(0, 0, 0, 0.5);
     backdrop-filter: 10px;
     text-align: right;
-    padding: 20px;
+    padding: 15px;
 }
 
 .boton1 {
@@ -59,18 +59,18 @@ nav{
 }
 
 .titulo h1{
-    font-size: 45px;
+    font-size: 35px;
     color:rgb(170, 255, 58);
-    margin: 10px;
+    margin: 5px;
 }
 
 .titulo p{
-    font-weight: 400;
+    font-weight: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .mision{
-    padding: 1opx;
+    padding: 10px;
     font-weight: 500;
     text-shadow: 30px;
     background-color: rgba(240, 248, 255, 0.2);
@@ -96,14 +96,14 @@ nav{
     background: rgb(77, 104, 104, 0.7);
     justify-content: center;
     width: 30%;
-    padding: 30px 30px;
-    margin: 10px 500px;
+    padding: 25px 25px;
+    margin: 10px 450px;
     border: 1px solid black;
     border-radius: 20px;   
 }
 
 article {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
